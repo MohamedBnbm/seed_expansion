@@ -8,7 +8,7 @@ dic_seeds = {'politique':['userId:19438626','userId:11694252','userId:266215308'
 
 k = 5
 unwanted_lists = biglists(500)
-for champ in ['ai2']:
+for champ in ['politique','f1','ai']:
     g = graph(0, K = k, champ = champ, dic_champs = dic_seeds, unwanted_lists = unwanted_lists)
     g.totxt()
     start = time.clock()
