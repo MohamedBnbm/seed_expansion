@@ -11,6 +11,5 @@ unwanted_lists = biglists(500)
 for champ in ['politique','f1','ai']:
     g = graph(0, K = k, champ = champ, dic_champs = dic_seeds, unwanted_lists = unwanted_lists)
     g.totxt()
-    start = time.clock()
     dc, dlc = g.louvain_communities()
     cl = g.clusters_kws()
