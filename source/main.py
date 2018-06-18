@@ -2,9 +2,8 @@ from funcs import *
 
 
 dic_seeds = {'politique':['userId:19438626','userId:11694252','userId:266215308'],
-                'ai':['userId:68746721','userId:48008938','userId:2956121356'],
                 'f1':['userId:138041655','userId:213969309','userId:28297965'],
-                'ai2':['userId:33836629','userId:48008938','userId:471550563']}
+                'ai':['userId:33836629','userId:48008938','userId:471550563']}
 
 
 k = 5
